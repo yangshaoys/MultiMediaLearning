@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yss.multimedialearning.TasksActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.yss.multimedialearning.view.CustomImageView
+            zhy:image="@drawable/ic_launcher"
+            zhy:imageScaleType="center"
+            zhy:titleText="hello andorid ! "
+            zhy:titleTextColor="#ff0000"
+            zhy:titleTextSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp" />
+
+        <com.yss.multimedialearning.view.CustomImageView
+            zhy:image="@drawable/ic_launcher"
+            zhy:imageScaleType="center"
+            zhy:titleText="helloworldwelcome"
+            zhy:titleTextColor="#00ff00"
+            zhy:titleTextSize="20sp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp" />
+
+        <com.yss.multimedialearning.view.CustomImageView
+            zhy:image="@drawable/lmj"
+            zhy:imageScaleType="center"
+            zhy:titleText="妹子~"
+            zhy:titleTextColor="#ff0000"
+            zhy:titleTextSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp" />
+
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
